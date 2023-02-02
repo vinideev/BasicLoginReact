@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rubik:wght@300&display=swap');
+
+body {
+    margin: auto;
+    background: rgb(198,93,60);
+background: linear-gradient(90deg, rgba(198,93,60,1) 30%, rgba(237,126,58,1) 75%);
+font-family: 'Rubik', sans-serif
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     margin-top: 100px;
+    
+    
+}
+
+.fundo {
+    background-color: white;
+    width: 300px;
+    border-radius: 15px;
+    padding: 20px;
+    
+}
+
+
+label {
+    margin: 20px;
+
+}
+
+button {
+    margin: 30px 0;
+    background: rgb(198,93,60);
+    background: linear-gradient(90deg, rgba(198,93,60,1) 30%, rgba(237,126,58,1) 75%);
+    padding: 5px;
+    border-radius: 12px;
+
+}
+
+button:hover {
+    opacity: 80%;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 60px;
+}
+
+.opcao {
+    margin-top: 20px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+}
